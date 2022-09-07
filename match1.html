@@ -1,0 +1,17 @@
+<html>
+<head>
+<script>
+    var a=prompt("Enter your number");
+    function validator(x){
+        console.log(x);
+        var reg=/^[a-zA-Z0-9]+$/;
+        if(x.match(reg)){
+            console.log("matched");
+        }
+        else{
+            console.log("unmatched");
+        }
+    }
+    validator(a);
+</script></head>
+</html>
